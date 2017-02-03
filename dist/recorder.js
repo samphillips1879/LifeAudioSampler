@@ -7,7 +7,7 @@ var Recorder = function(source, cfg){
   this.node = (this.context.createScriptProcessor ||
                this.context.createJavaScriptNode).call(this.context,
                                                        bufferLen, 2, 2);
-  var worker = new Worker('lib/node_modules/recorderjs/recorderWorker.js');
+  var worker = new Worker('dist/recorderWorker.js');
   // var worker = new Worker(WORKER_PATH);
   worker.onmessage = function(e){
     var blob = e.data;
