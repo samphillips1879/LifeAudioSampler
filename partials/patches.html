@@ -1,0 +1,25 @@
+<div ng-include="'partials/navbar.html'"></div>
+<div class="viewWrap">
+	<h2>{{greeting}}</h2>
+	<div class="search-group container-fluid">
+		<div class="row">
+			<button class="col-xs-6 beltButton saveButton" ng-click="getPatches('public')">Public Patches</button>
+			<button class="col-xs-6 beltButton saveButton" ng-click="getPatches('user')">Your Patches</button>
+		</div>
+
+		<div class="row">
+			<input type="text" class="col-xs-12 saveButton" id="sampleTitleSearchInput" placeholder="filter results" ng-model="sampleTitleQuery">
+		</div>
+	</div>
+	<div class="browseResults">
+		<div ng-repeat="card in catalog | filter: sampleTitleQuery" class="col-xs-4 sampleCatalogCard container">
+		  <div class="panel panel-default">
+		    <div class="panel-body">
+			    <div class="col-xs-12 margCard" ng-click="assignPatch(card)">
+				    <button class="btn btn-info choiceButton col-xs-12">{{card.title}}</button>
+			    </div>
+		    </div>
+		  </div>
+		</div>
+	</div>
+</div>
