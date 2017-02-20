@@ -1,24 +1,6 @@
 #Life Audio Sampler
+####[Try it here!](https://samcphillips.com/lifeaudiosampler/)
 The Life Audio Sampler is a web application that allows users to upload a video and then sample audio clips from it. The audio samples can then be saved and loaded into the application's sampler for musical playback. Eight separate samples can be loaded into the eight sampler channels at one time. Together, these eight channels make a patch, which can also be saved, and later reloaded, to be used in the sampler by all users.
-
-##Installation
-To download and run this application, enter into your command line: 
-
-```
- git clone https://github.com/samphillips1879/PhillipsWebAudioSampler.git
-```
-
-Next, in the lib folder of this project, enter:
-```
- npm install
-```
-
-
-If you don't already have it on your machine, install [http-server](https://www.npmjs.com/package/http-server) to run the app:
-```
- npm install http-server -g
-```
-Then, at the root folder, run http-server to launch the application.
 
 ##Using the Life Audio Sampler
 In order to use the Life Audio Sampler, users must either login or register. 
