@@ -9,22 +9,22 @@ $choiceButton: $middle;
 $buttonText: black;
 
 body {
-	background-color: $middle;
-	font-family: 'Orbitron', sans-serif;
-	letter-spacing: 1px;
+    background-color: $middle;
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 1px;
 }
 
 button {
-	letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 h2 {
-	text-align: center;
-	margin: auto;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	color: white;
-	text-shadow:
+    text-align: center;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: white;
+    text-shadow:
     -1px -1px 0 #000,
     1px -1px 0 #000,
     -1px 1px 0 #000,
@@ -33,231 +33,231 @@ h2 {
 }
 
 .alphaAndOmega {
-	min-height: 70px;
+    min-height: 70px;
 }
 
 .search-group {
-	text-align: center;
-	margin: auto;
+    text-align: center;
+    margin: auto;
 }
 
 .choiceButton {
-	background-color: $highlight;
-	color: $buttonText;
-	overflow: scroll;
-	min-height: 60px;
+    background-color: $highlight;
+    color: $buttonText;
+    overflow: scroll;
+    min-height: 60px;
 }
 
 .browseResults {
-	margin: 5%;
-	border: 3px solid $border;
-	position: relative;
-	background-color: $light;
-	padding-bottom: 15px;
-	overflow: scroll;
-	height: 70%;
-	width: 80%;
-	margin: auto;
+    margin: 5%;
+    border: 3px solid $border;
+    position: relative;
+    background-color: $light;
+    padding-bottom: 15px;
+    overflow: scroll;
+    height: 70%;
+    width: 80%;
+    margin: auto;
     margin-bottom: 5rem;
     margin-top: 2rem;
-	top: 5px;
+    top: 5px;
 }
 
 video {
-	max-height: 359px;
-	margin-top: 25px;
-	background-color: $light;
-	border: 2px solid $border;
-	padding: 5px;
+    max-height: 359px;
+    margin-top: 25px;
+    background-color: $light;
+    border: 2px solid $border;
+    padding: 5px;
 }
 
 .instructions {
-		display: inline-block;
-		color: white;
-		text-shadow:
-	    -1px -1px 0 #000,
-	    1px -1px 0 #000,
-	    -1px 1px 0 #000,
-	    1px 1px 0 #000; 
-		text-align: center;
-		font-style: italic;
+        display: inline-block;
+        color: white;
+        text-shadow:
+        -1px -1px 0 #000,
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000; 
+        text-align: center;
+        font-style: italic;
 }
 
 input[type=file] {
-	border: 2px solid $border;
-	padding-top: 10px;
-	padding-left: 25px;
-	background-color: $light;
+    border: 2px solid $border;
+    padding-top: 10px;
+    padding-left: 25px;
+    background-color: $light;
 }
 
 .viewWrap {
-	border: 2px solid $border;
-	border-top: 0;
-	position: fixed;
-	top: 50px; right: 0; bottom: 0; left: 0;
-	padding-left: 5%;
-	padding-right: 5%;
-	overflow: scroll;
+    border: 2px solid $border;
+    border-top: 0;
+    position: fixed;
+    top: 50px; right: 0; bottom: 0; left: 0;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow: scroll;
     margin-top: 3px;
 }
 
 #patchTitleHolder {
-	margin-top: 5px;
-	min-height: 45px;
-	padding: 0;
-	padding-top: 10px;
+    margin-top: 5px;
+    min-height: 45px;
+    padding: 0;
+    padding-top: 10px;
 
-	span {
-		text-align: left;
-	}
+    span {
+        text-align: left;
+    }
 
-	h6 {
-		display: inline;
-		text-align: center;
-	}
+    h6 {
+        display: inline;
+        text-align: center;
+    }
 }
 
 #patchTitle {
-	text-align: center;
+    text-align: center;
 }
 
 .sampleBelt {
-	background-color: $light;
-	border: 1px solid $border;
-	border-bottom-width: 3px;
-	height: 50px;
-	margin-top: 10px;
-	h4 {
-		font-weight: 300;
-	}
-	select {
-		outline: 1px inset $border; outline-offset:-1px;
-		color: $highlight;
-		background-color: $dark;
-		border: 5px ridge $highlight;
-		height: 50px;
-	}
+    background-color: $light;
+    border: 1px solid $border;
+    border-bottom-width: 3px;
+    height: 50px;
+    margin-top: 10px;
+    h4 {
+        font-weight: 300;
+    }
+    select {
+        outline: 1px inset $border; outline-offset:-1px;
+        color: $highlight;
+        background-color: $dark;
+        border: 5px ridge $highlight;
+        height: 50px;
+    }
 }
 
 .beltButton {
-	height: 50px;
-	color: $dark;
-	background-color: $highlight;
-	border: 2px groove $border;
+    height: 50px;
+    color: $dark;
+    background-color: $highlight;
+    border: 2px groove $border;
 
-	&:hover {
-		background-color: $light;
-		color: white;
-	}
-	&:active {
-		background-color: $middle;
-		color: $light;
-	}
+    &:hover {
+        background-color: $light;
+        color: white;
+    }
+    &:active {
+        background-color: $middle;
+        color: $light;
+    }
 }
 
 .sampleTriggerButton {
-	padding-left: 6.5%;
-	padding-right: 8%;
-	background-color: $choiceButton;
-	border: 1px solid $border;
+    padding-left: 6.5%;
+    padding-right: 8%;
+    background-color: $choiceButton;
+    border: 1px solid $border;
 }
 
 .triggerIcon {
-	text-align: center;
-	margin: auto;
+    text-align: center;
+    margin: auto;
 }
 
 
 sampleTitle {
-	height: 3em;
-	overflow: scroll;
-	border: 5px ridge $highlight;
-	vertical-align: middle;
-	padding-top: 2%;
-	text-align: center;
-	background-color: $border;
-	color: $highlight;
-	font-family: 'Orbitron', sans-serif;
+    height: 3em;
+    overflow: scroll;
+    border: 5px ridge $highlight;
+    vertical-align: middle;
+    padding-top: 2%;
+    text-align: center;
+    background-color: $border;
+    color: $highlight;
+    font-family: 'Orbitron', sans-serif;
 }
 
 #viewHolder {
-	border: 2px solid $border;
-	position: fixed;
-	top: 0; right: 0; bottom: 0; left: 0;
+    border: 2px solid $border;
+    position: fixed;
+    top: 0; right: 0; bottom: 0; left: 0;
 }
 
 .navbar {
 
-	border: 2px solid $border;
-	width: 100%;
-	position: fixed;
-	top: 0; right: 0; left: 0;
-	background-color: $light;
+    border: 2px solid $border;
+    width: 100%;
+    position: fixed;
+    top: 0; right: 0; left: 0;
+    background-color: $light;
 }
 
 .indexRow {
-	margin-top: 25em;
+    margin-top: 25em;
 }
 
 .panel-body {
-	border: 1px solid black
+    border: 1px solid black
 }
 
 #creationBelt {
-	margin-top: 3em;
-	margin-bottom: 3em;
-	border: 2px solid $border;
-	border-radius: 25px;
-	padding: 2em;
-	background-color: $light;
+    margin-top: 3em;
+    margin-bottom: 3em;
+    border: 2px solid $border;
+    border-radius: 25px;
+    padding: 2em;
+    background-color: $light;
 }
 
 .captureStatus {
-	text-align: center;
-	margin: auto;
+    text-align: center;
+    margin: auto;
 }
 
 .chanDiv {
-	margin: 0;
-	border: 1px solid $border;
-	padding: 5%;
-	min-height: 315px;
-	background-color: $light;
+    margin: 0;
+    border: 1px solid $border;
+    padding: 5%;
+    min-height: 315px;
+    background-color: $light;
 }
 
 .margCard {
-	padding: 0;
+    padding: 0;
 }
 
 .panel-body {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 .panel-default {
-	padding: 0;
-	margin: 0;
+    padding: 0;
+    margin: 0;
 }
 
 .channelGroup {
-	margin-top: 5px;
-	border: 1px solid $border;
-	padding: 0;
+    margin-top: 5px;
+    border: 1px solid $border;
+    padding: 0;
     margin-bottom: 5rem;
 }
 
 .chanButtons {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	overflow: scroll;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    overflow: scroll;
 }
 
 .sampleCatalogCard {
-	margin-top: 3%;
+    margin-top: 3%;
 }
 
 .repeatDiv {
-	padding-left: 0;
-	padding-right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #progress_bar.loading {
@@ -271,145 +271,112 @@ width: 0;
 }
 
 .tinyText {
-	font-size: .7em;
+    font-size: .7em;
 }
 
 .saveButton {
-	height: 3em;
-	border-radius: 25px;
-	border: 5px groove $highlight;
-	border-bottom-style: ridge;
-	border-right-style: ridge;
-	color: $dark;
-	padding-left: 5px;
-	padding-right: 5px;
+    height: 3em;
+    border-radius: 25px;
+    border: 5px groove $highlight;
+    border-bottom-style: ridge;
+    border-right-style: ridge;
+    color: $dark;
+    padding-left: 5px;
+    padding-right: 5px;
+    outline: none;
 }
 
 .cancelButton {
-	height: 3em;
-	border-radius: 25px;
-	border: 5px groove #B04A68;
-	border-bottom-style: ridge;
-	border-right-style: ridge;
-	background-color: $pink;
-	color: white;
-	&:hover {
-		background-color: #B04A68;
-	}
+    height: 3em;
+    border-radius: 25px;
+    border: 5px groove #B04A68;
+    border-bottom-style: ridge;
+    border-right-style: ridge;
+    background-color: $pink;
+    outline: none;
+    color: white;
+    &:hover {
+        background-color: #B04A68;
+    }
 }
 
 .sampleTriggerButton {
-	background-color: $middle;
-	&:active {
-		background-color: black;
-	}
+    background-color: $middle;
+    &:active {
+        background-color: black;
+    }
 }
-	
+    
 .loadButton {
-	background-color: white;
-	border: 2px groove $border;
-	border-bottom-style: ridge;
-	border-right-style: ridge;
-	&:hover {
-		background-color: $highlight;
-	}
+    background-color: white;
+    border: 2px groove $border;
+    border-bottom-style: ridge;
+    border-right-style: ridge;
+    &:hover {
+        background-color: $highlight;
+    }
 }
 
 .sampleTriggerRow {
-	min-height: 35px;
+    min-height: 35px;
 }
 
 .navbar-header {
-	a {
-		color: white;
-	}
+    a {
+        color: white;
+    }
 }
 
 .patchHead {
-	background-color: $light;
-	border: 1px solid $border;
-	border-bottom-width: 3px;
-	min-height: 60px;
-	margin-top: 10px;
+    background-color: $light;
+    border: 1px solid $border;
+    border-bottom-width: 3px;
+    min-height: 60px;
+    margin-top: 10px;
 }
 
 .patchHeadButton {
-	margin: 7px;
+    margin: 7px;
 }
 
 #loginCard {
-	margin: 5%;
-	border: 3px solid $border;
-	background-color: $light;
-	overflow: scroll;
-	min-height: 30%;
-	width: 50%;
-	margin: auto;
-	padding: 15px;
-	text-align: left;
-	span {
-		margin-top: 10px;
-	}
+    margin: 5%;
+    border: 3px solid $border;
+    background-color: $light;
+    overflow: scroll;
+    min-height: 30%;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    text-align: left;
+    span {
+        margin-top: 10px;
+    }
 }
 
 .glyphicon-retweet {
-	background-color: $pink;
-	color: white;
-	&:hover {
-		color: white;
-	}
-	&:active {
-		color: white;
-		background-color: $dark;
-	}
-	&:focus {
-		color: white;
-	}
+    background-color: $pink;
+    color: white;
+    &:hover {
+        color: white;
+    }
+    &:active {
+        color: white;
+        background-color: $dark;
+    }
+    &:focus {
+        color: white;
+    }
 }
 
 .engagedLoop {
-	background-color: green;
-	&:hover {
-		color: white;
-		background-color: green;
-	}
-	&:active {
-		color: white;
-		background-color: $dark;
-	}
+    background-color: green;
+    &:hover {
+        color: white;
+        background-color: green;
+    }
+    &:active {
+        color: white;
+        background-color: $dark;
+    }
 }
-
-// .chanSlider {
-
-// }
-
-// input[type=range]{
-//     -webkit-appearance: none;
-// }
-
-// input[type=range]::-webkit-slider-runnable-track {
-//     width: 300px;
-//     height: 5px;
-//     background: #ddd;
-//     border: none;
-//     border-radius: 3px;
-//     -webkit-transform:rotate(90deg);
-// }
-
-// input[type=range]::-webkit-slider-thumb {
-//     -webkit-appearance: none;
-//     border: none;
-//     height: 16px;
-//     width: 16px;
-//     border-radius: 50%;
-//     background: goldenrod;
-//     margin-top: -4px;
-// }
-
-// input[type=range]:focus {
-//     outline: none;
-// }
-
-// input[type=range]:focus::-webkit-slider-runnable-track {
-//     background: #ccc;
-// }
