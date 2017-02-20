@@ -3,7 +3,7 @@
 The Life Audio Sampler is a web application that allows users to upload a video and then sample audio clips from it. The audio samples can then be saved and loaded into the application's sampler for musical playback. Eight separate samples can be loaded into the eight sampler channels at one time. Together, these eight channels make a patch, which can also be saved, and later reloaded, to be used in the sampler by all users.
 
 ##Using the Life Audio Sampler
-In order to use the Life Audio Sampler, users must either login or register. 
+In order to use the Life Audio Sampler, users must either login or register. This is so that any samples or patches they create may be easily found again by browsing the "Your Samples" and "Your Patches" tabs respectively.
 
 
 
